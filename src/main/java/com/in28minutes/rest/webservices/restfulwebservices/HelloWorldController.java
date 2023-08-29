@@ -13,7 +13,7 @@ public class HelloWorldController {
 
 	@GetMapping(path = "/hello-world")
 	public String helloWorld() {
-		logger.info("Article fecthed for id");
+		logger.info("Article fecthed for id s");
 		return "Hello World new";
 	}
 
